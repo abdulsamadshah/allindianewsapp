@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fullnewsShowActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/newsimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:src="@drawable/statuss" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@color/black"
+                    android:orientation="horizontal">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/userimagedata"
+                        android:layout_width="45dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/avatar"
+                        app:civ_border_color="#DEDCE1"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_width="144dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:padding="2dp"
+                        android:paddingLeft="5dp"
+                        android:text="Aaj Tak"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="125dp"
+                    android:layout_height="39dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="-40dp"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imgwhatsapp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="7dp"
+                        android:src="@drawable/ic_baseline_comment_24" />
+
+                    <TextView
+                        android:id="@+id/views"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="-27dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="3dp"
+                        android:text="25"
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:id="@+id/imgshareview"
+                        android:layout_width="35sp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="-25dp"
+                        android:src="@drawable/whatsappdash" />
+
+                    <TextView
+                        android:id="@+id/viewss"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="92dp"
+                        android:layout_marginTop="-27dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="3dp"
+                        android:text="25"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/newstitles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/amaranth"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="6dp"
+                android:text="samad"
+                android:textSize="18dp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/newsdescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amaranth"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:paddingRight="10dp"
+                android:text="samad"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

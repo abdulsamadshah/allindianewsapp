@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "827443472858",
+    "project_id": "all-india-news-app-6631c",
+    "storage_bucket": "all-india-news-app-6631c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827443472858:android:6e5ff9b818495818d6b8e3",
+        "android_client_info": {
+          "package_name": "com.example.allindianewsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827443472858-s7gsg7ihhi3kdk4e7u8ajdte1nn8mq5b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.allindianewsapp",
+            "certificate_hash": "8907b0935e1f73230a7ed6da023709779a49e698"
+          }
+        },
+        {
+          "client_id": "827443472858-4p72vc4isg3f5riv1kstfka31908glv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTmcybEIVwfdF6frGqvZmvfFPpA_wNGac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827443472858-4p72vc4isg3f5riv1kstfka31908glv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

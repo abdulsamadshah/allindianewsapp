@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PostnewsActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="146dp"
+        android:layout_height="38dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="10dp"
+        android:text="Create Post"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/postbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/postbutton" />
+
+    <Button
+        android:id="@+id/postbutton"
+        android:layout_width="85dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="21dp"
+        android:backgroundTint="#E88F1A"
+        android:text="Post"
+        android:enabled="false"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/videotitle"
+        android:layout_width="350dp"
+        android:layout_height="166dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="What is your mind?"
+        android:inputType="textPersonName"
+        android:paddingLeft="5dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_goneMarginTop="5dp" />
+
+    <ImageView
+        android:id="@+id/addimage"
+        android:layout_width="43dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/gallery"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/newsdescriptiondata"
+        android:layout_width="210dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="add to your post"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/addimage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/addimage" />
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postbutton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/addimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/gray"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/postimage"
+        android:layout_width="393dp"
+        android:layout_height="281dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/news"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videotitle"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/videotitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/nprofile"
+            android:layout_width="55dp"
+            android:layout_height="75dp"
+            android:src="@drawable/news"
+            app:civ_border_width="2dp"
+            app:civ_circle_background_color="@color/purple_200" />
+
+        <TextView
+            android:id="@+id/names"
+            android:layout_width="256dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="-40dp"
+            android:text="samad"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="150dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginLeft="65dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:text="Hello" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

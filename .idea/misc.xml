@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/drawable/editshape.xml" value="0.1665" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/drawable/floatingbuttondesign.xml" value="0.168" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/drawable/follow_background.xml" value="0.168" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/drawable/ic_baseline_comment_24.xml" value="0.168" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/drawable/textbackground.xml" value="0.168" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/drawable/videos.xml" value="0.168" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/font/abril_fatface.xml" value="0.1923899102180419" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/font/adamina.xml" value="0.1923899102180419" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/font/aladin.xml" value="0.1923899102180419" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/font/allan.xml" value="0.1923899102180419" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/layout/activity_fullnews_show.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/layout/activity_postnews.xml" value="0.16" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/layout/activity_signup.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/layout/fragment_aaj_tak_news.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/layout/fragment_abp_news.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/layout/fragment_home.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/layout/fragment_india_news.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/layout/fragment_video.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/layout/headernews_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/layout/postnews_layout.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/menu/bottommenu.xml" value="0.16374519025224454" />
+        <entry key="..\:/Users/Admin/Android Studio All App/MyBestApp/AllIndiaNewsAppabdulsamadshahas/app/src/main/res/menu/mymenu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
